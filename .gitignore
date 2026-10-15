@@ -1,2 +1,13 @@
 # Virtual Environment
 .venv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local settings (contain IPs / passwords)
+.env
+esp32/hand_leds/secrets.h
+
+# Downloaded MediaPipe model
+finger_detector/models/
